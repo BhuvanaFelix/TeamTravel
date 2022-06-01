@@ -1,39 +1,85 @@
-img {
-    width: 100%;
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+}
 
+img {
+  width: 100%;
 }
 nav {
-text-align: center;
-background-color: rgb(0, 187, 255);
-font-size: 1.5em;
+  text-align: center;
+  background-color: rgb(0, 187, 255);
+  font-size: 1.5em;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
-    background-color: bisque;
-    color:rgb(0, 187, 255)
+  background-color: bisque;
+  color: rgb(0, 187, 255);
 }
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-main {
-    margin-left: 50px;
 
+main {
+  margin-left: 50px;
 }
-.stories{
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
+
+.stories {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
 }
-.col img{
-    width: 100%;
-    opacity: 0.8;
-    
+.col img {
+  width: 100%;
+  opacity: 0.8;
 }
-.col{
-    display: inline-block;
-    width: 30%;
-    margin: 20px 5px;
-    box-shadow: 5px 5px 5px black;
+.col {
+  display: inline-block;
+  width: 30%;
+  margin: 20px 5px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 30px;
+}
+
+label {
+  display: block;
+  margin: 10px 5px;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.button {
+  background-color: rgb(96, 248, 96);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
 }
